@@ -1,14 +1,14 @@
-# FinSafe
+# FinSight
 
 ### Smarter Financial Decisions, Made Safer.
 
-FinSafe is a financial safety platform designed to help users make better-informed financial decisions by bringing important financial information, insights, and risk awareness into one simple interface.
+FinSight is a financial platform designed to help users make better-informed financial decisions by bringing important financial information, insights, and risk awareness into one simple interface.
 
 ## 🚀 Overview
 
 Financial decisions can often be difficult to evaluate because information is scattered across different sources and risks aren't always obvious.
 
-**FinSafe** aims to simplify this process by giving users a clear view of their financial situation and helping them understand potential risks before making a decision.
+**FinSight** aims to simplify this process by giving users a clear view of their financial situation and helping them understand potential risks before making a decision.
 
 ## ✨ Features
 
@@ -43,7 +43,7 @@ Financial decisions can often be difficult to evaluate because information is sc
 ## 📁 Project Structure
 
 ```text
-finsafe/
+finsight/
 ├── public/
 ├── src/
 │   ├── components/
@@ -62,7 +62,7 @@ finsafe/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/manika004/finsafe.git
+git clone https://github.com/manika004/finsight.git
 cd finsafe
 ```
 
