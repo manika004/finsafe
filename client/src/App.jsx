@@ -26,6 +26,7 @@ import {
 
 import "./App.css";
 
+const COLORS = ['#6366f1', '#f43f5e', '#22c55e', '#eab308', '#06b6d4', '#a855f7', '#f97316'];
 
 const demoData = {
   health: {
@@ -289,6 +290,28 @@ const savingsRate =
           <Wallet size={27} />
           <span>FinSight</span>
         </div>
+        
+        <div className="top-profile-section">
+  <div className="top-profile-user">
+    <div className="top-profile-avatar">
+      👤
+    </div>
+
+    <span className="top-profile-name">
+      Guest User
+    </span>
+  </div>
+
+  <div className="profile-actions">
+    <button className="login-button">
+      Login
+    </button>
+
+    <button className="signup-button">
+      Sign Up
+    </button>
+  </div>
+</div>
 
         <div className="nav-right">
           <ShieldCheck size={17} />
@@ -570,10 +593,9 @@ const savingsRate =
                   >
 
                     {chartData.map(
-                      (_, index) => (
-                        <Cell
-                          key={index}
-                        />
+                      (_, index) => ( 
+                        <Cell key={index} fill={COLORS[index % COLORS.length]} />
+
                       )
                     )}
 
